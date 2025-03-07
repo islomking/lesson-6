@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IP Информация</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Фойдаланувчи жойлашувини аниқлаш</h2>
+    <button class="btn" onclick="fetchIPData()">Жойлашувни кўрсат</button>
+    <div class="info">
+        <p><strong>Kenglik:</strong> <span id="lat"></span></p>
+        <p><strong>Uzunlik:</strong> <span id="lon"></span></p>
+        <p><strong>Mamlakat:</strong> <span id="country"></span></p>
+        <p><strong>Shahar:</strong> <span id="city"></span></p>
+        <p><strong>IP Manzil:</strong> <span id="ip"></span></p>
+        <p><strong>Internet provayder:</strong> <span id="org"></span></p>
+    </div>
+    <div id="map"></div>
+    <script src="script.js"></script>
+</body>
+</html>
